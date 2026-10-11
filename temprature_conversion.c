@@ -1,3 +1,5 @@
+//Modify the temprature conversion program to print a heading above the table//
+
 #include <stdio.h>
 /* print fahrenheit-Celsius table
  for fahr=0,20,.....300; floating-point version*/
