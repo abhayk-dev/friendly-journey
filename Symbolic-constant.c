@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define LOWER 0  /*lower limit to table*/
 #define UPPER 300  /* upper limit */
-#define step 20  /* step size */
+#define STEP 20  /* step size */
 main (){
   int fahr;
   for (fahr=LOWER; fahr<=UPPER; fahr+=STEP)
