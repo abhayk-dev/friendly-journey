@@ -1,3 +1,5 @@
+//write a program to print the corresponding celsius to fahrenheit table//
+
 #include <stdio.h>
   /* print fahrenheit-Celsius table */
   main(){
