@@ -1,3 +1,5 @@
+//Run the "Hello, world" program on your system. Experiment with leaving out parts of the program, to see what error messages you get.//
+
 #include <stdio.h>  //include information about standard library//
 main()  //define a function named main that receives nno argument values//
 {  //statements of main are enclosed in braces//
