@@ -8,3 +8,5 @@ main()
   ++nc;
  printf("%d\n", nc);
 }
+
+/*limitation this will count space as character tho we need to solve see C-C-mod.c*/
