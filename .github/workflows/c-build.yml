@@ -1,0 +1,28 @@
+name: C Build and Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Compile C Programs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check GCC version
+        run: gcc --version
+
+      - name: Check Make version
+        run: make --version
+
+      - name: Compile all C programs
+        run: make all
+
+      - name: Clean generated executables
+        run: make clean
